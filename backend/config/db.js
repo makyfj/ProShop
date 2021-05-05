@@ -7,9 +7,9 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useCreateIndex: true,
     });
-    console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
+    console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (e) {
-    console.log(`Error: ${e}`.red.underline.bold);
+    console.log(`Error: ${e}`);
     process.exit(1);
   }
 };
