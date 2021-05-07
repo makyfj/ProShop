@@ -24,7 +24,7 @@ const ProfileScreen = ({ history }) => {
     if (!userInfo) {
       history.push("/login");
     } else {
-      if (!user) {
+      if (!user.name) {
         dispatch(getUserDetails("profile"));
       } else {
         setName(user.name);
