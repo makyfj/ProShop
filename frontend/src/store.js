@@ -21,10 +21,12 @@ import {
   orderListMyReducer,
   orderPayReducer,
 } from "./reducers/orderReducers";
+import { productDeleteReducer } from "./reducers/productReducers";
 
 const reducer = combineReducers({
   productList: productListReducer,
   productDetails: productDetailsReducer,
+  productDelete: productDeleteReducer,
   cart: cartReducer,
   userLogin: userLoginReducer,
   userRegister: userRegisterReducer,
