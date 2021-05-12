@@ -13,6 +13,14 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
+  "engines": {
+    "node": "~16.1.0",
+    "npm": "~7.12.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
   "author": "Franklin Jara",
   "license": "MIT",
   "dependencies": {
