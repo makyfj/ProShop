@@ -4,7 +4,7 @@
 - I followed a tutorial done by @bradtraversy
 
 # What did i struggle with
-- I definitely struggle with Redux but I was able to understand it
+- I definitely struggle with Redux but I was able to understand it and apply it in this project
 
 - The website is hosted at
 - https://superproshopapp.herokuapp.com/
